@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 16</title>
+</head>
+
+<body>
+    <form action="mailto:seu.email@seuemail.com" method="post">
+        <label for="nome-usuario">Nome de Usuário:</label>
+        <input type="text" name="nome-usuario" id="nome-usuario" size="40" maxlength="30" value=""
+            placeholder="Digite seu nome">
+        <br>
+    </form>
+    <br>
+    <form action="processarForm.php" method="get">
+        <label for="nome">Nome:</label>
+        <input type="text" name="Nome" id="Nome"><br><br>
+        <label for="email">E-mail:</label>
+        <input type="text" name="email" id="email"><br><br>
+        <form>
+            <label for="senha">Senha:</label>
+            <input type="text" name="senha" id="senha"><br><br>
+            <label for="">Data Nascimento</label>
+            <input type="date" required><br><br>
+            <input type="time" name="time" id="time">
+            <input type="submit" value="Enviar">
+        </form>
+        <form action=""></form>
+        <input type="month" name="mes" id="mes">
+        <input type="datetime-local" name="dtlocal" id="dtlocal">
+        <br>
+</body>
+
+</html>
