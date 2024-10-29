@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#tituloprincipal{
+    color:blue;
+    text-align: center;
+}
+
+.subti, .sub1{
+    color: green;
+    text-align: right;
+}
+
+.subti2, .sub2{
+    color: green;
+}
+
+.titulo2{
+    color: green;
+}
+
+.p{
+    text-justify: auto;
+}
+
