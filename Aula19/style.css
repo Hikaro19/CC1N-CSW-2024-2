@@ -1,24 +1,40 @@
 @charset "UTF-8";
 
-#tituloprincipal{
-    color:blue;
-    text-align: center;
-}
+body{
+    
+    justify-content: center;
+    height: 90vh;
+    width: 60%;
+    background-color:bisque;
+    border-radius: 1rem;
+    text-align:justify;
+    padding: 2rem;
+    box-shadow: 30px 30px 20px rgba(0, 0, 0, 0.719);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-.subti, .sub1{
-    color: green;
-    text-align: right;
-}
-
-.subti2, .sub2{
-    color: green;
-}
-
-.titulo2{
-    color: green;
-}
-
-.p{
-    text-justify: auto;
+    #tituloprincipal{
+        color:blue;
+        text-align: center;
+    }
+    
+    .subti, .sub1{
+        color: green;
+        text-align: right;
+    }
+    
+    .subti2, .sub2{
+        color: green;
+    }
+    
+    .titulo2{
+        color: green;
+    }
+    
+    .p{
+        text-justify: auto;
+    }   
 }
 
