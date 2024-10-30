@@ -1,0 +1,33 @@
+body{
+    justify-content: center;
+    background-color: beige;
+    height: 70vh;
+    width: 70%;
+    border-radius: 1rem;
+    text-align:justify;
+    padding: 2rem;
+    box-shadow: 30px 30px 20px rgba(0, 0, 0, 0.719);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    h1{
+        color: green;
+    }
+    p>a:houver{
+        color:red;
+    }
+    
+    p>a::after{
+        content: '[lINK]';
+        text-decoration:none;
+        font-weight:normal;
+        color:yellow;
+    }
+    
+    p>a::before{
+        content: '>>';
+    }
+
+}
