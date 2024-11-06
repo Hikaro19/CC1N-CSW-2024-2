@@ -1,0 +1,157 @@
+body {
+    background-color: aliceblue;
+
+    .nav {
+        background-color: darkblue;
+        display: flexbox;
+        height: 100px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 40px;
+        text-decoration: aqua;
+    }
+
+    .container {
+        background-color: darkblue;
+        height: 300px;
+        display: flex;
+        align-content: space-around;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .um {
+        background-color: aqua;
+        flex-grow: 1;
+        height: 200px;
+        width: 100px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+
+    .um:hover {
+        background-color: red;
+    }
+
+    .dois {
+        background-color: aqua;
+        flex-grow: 2;
+        height: 200px;
+        width: 10px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+
+    .dois:hover {
+        background-color: red;
+    }
+
+    .tres {
+        background-color: aqua;
+        flex-grow: 1;
+        height: 200px;
+        width: 100px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+
+    .tres:hover {
+        background-color: red;
+    }
+
+    .div3 {
+        background-color: darkblue;
+        height: 300px;
+        display: flex;
+        align-content: space-around;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .d11 {
+        background-color: aqua;
+        flex-grow: 1;
+        height: 200px;
+        width: 100px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+
+    .d11:hover{
+        background-color: red;
+    }
+
+    .d11:active{
+        background-color: yellow;
+    }
+
+
+    .d22 {
+        background-color: aqua;
+        flex-grow: 1;
+        height: 200px;
+        width: 90px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+
+    .d22:hover{
+        background-color: red;
+    }
+
+    .d22:active{
+        background-color: yellow;
+    }
+
+    .d33 {
+        background-color: aqua;
+        flex-grow: 1;
+        height: 200px;
+        width: 90px;
+        border-radius: 10px;
+        margin: 5px;   
+        align-self: flex-end; 
+    }
+
+    .d33:hover{
+        background-color: red;
+    }
+
+    .d33:active{
+        background-color: yellow;
+    }
+
+    .d44 {
+        background-color: aqua;
+        flex-grow: 1;
+        height: 200px;
+        width: 90px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+
+    .d44:hover{
+        background-color: red;
+    }
+
+    .d44:active{
+        background-color: yellow;
+    }
+
+    .d55 {
+        background-color: aqua;
+        flex-grow: 1;
+        height: 200px;
+        width: 90px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+
+    .d55:hover{
+        background-color: red;
+    }
+
+    .d55:active{
+        background-color: yellow;
+    }
+}
